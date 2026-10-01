@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "currency": "CAD",
+      "drop_pct": 5.0,
+      "name": "Sony WH-1000XM5 Headphones",
+      "retailers": [
+        "amazon",
+        "bestbuy",
+        "walmart"
+      ],
+      "target_price": 429.99
+    },
+    {
+      "currency": "CAD",
+      "drop_pct": 4.0,
+      "name": "Apple iPad Air 11\" (M3, 128GB)",
+      "retailers": [
+        "amazon",
+        "bestbuy",
+        "canada-computers"
+      ],
+      "target_price": 699.0
+    },
+    {
+      "currency": "CAD",
+      "drop_pct": 6.0,
+      "name": "Dyson V15 Detect",
+      "retailers": [
+        "amazon",
+        "walmart"
+      ],
+      "target_price": 749.99
+    }
+  ]
+}
