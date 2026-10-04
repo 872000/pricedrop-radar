@@ -89,6 +89,7 @@ def evaluate_product(product: WatchedProduct, store: PriceStore) -> list[Alert]:
 
 
 def evaluate_all(products: list[WatchedProduct], store: PriceStore) -> list[Alert]:
+    """Evaluate alert rules for every watched product; returns all alerts."""
     alerts: list[Alert] = []
     for product in products:
         alerts.extend(evaluate_product(product, store))
