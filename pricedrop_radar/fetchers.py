@@ -138,10 +138,12 @@ class LiveFetcher:
 
 
 def get_fetcher(retailer: str, mode: str = "demo") -> Fetcher:
+    """Return a demo fetcher, or a live fetcher bound to the given retailer."""
     if mode == "demo":
         return DemoFetcher()
     return LiveFetcher(retailer)
 
 
 def supported_retailers() -> list[str]:
+    """Return the retailers the demo fetcher can generate prices for."""
     return list(DEMO_RETAILERS)
